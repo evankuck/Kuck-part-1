@@ -1,0 +1,37 @@
+body {
+    font-family: Bungee;
+    text-align: center;
+    background: #ff00ff;
+}
+
+.ccc-img {
+    margin-left: 0%;
+    float: left;
+}
+.nav-link {
+    color: #7944e6;
+    text-decoration: none;
+    text-align: right;
+    font-size: 18px;
+    padding: 14px 20px;
+    float: right;
+    transition: .5s ease;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  .nav-link:hover {
+    background-color: #10fdff;
+
+    div.flex-container {
+        display:flex;
+        justify-content: center;
+        text-align: center;
+      }
+
+@media screen and (min-width: 768px) {
+    float: left;
+    width: 60%;
+    .flex-container {
+        flex-direction: column;
+    }
+}
